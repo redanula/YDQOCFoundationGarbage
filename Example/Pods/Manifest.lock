@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - HDNOCFoundationGarbage (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - HDNOCFoundationGarbage (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  HDNOCFoundationGarbage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  HDNOCFoundationGarbage: c610d56c57c31e23c4ebc7284fec0606be5f8808
+
+PODFILE CHECKSUM: 4b4cdba0550e87c5881da706d1b2bf78a06f9137
+
+COCOAPODS: 1.5.3

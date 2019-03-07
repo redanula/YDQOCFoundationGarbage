@@ -1,0 +1,6 @@
+framework module HDNOCFoundationGarbage {
+  umbrella header "HDNOCFoundationGarbage-umbrella.h"
+
+  export *
+  module * { export * }
+}
